@@ -1,0 +1,22 @@
+import java.util.Scanner;
+ 
+public class java {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Въведете радиуса: ");
+        double r = Integer.parseInt(scanner.nextLine());
+        System.out.print("Въведете височината: ");
+        double h = Integer.parseInt(scanner.nextLine());
+ 
+        if (r <= 0 || h <= 0) {
+            throw new Error("Числата не може да са отрицателни!");
+        }
+        double S = Math.PI*r*r;
+        double V= Math.PI*r*r*h;
+        System.out.println("S = " + S);
+        System.out.println("Volume = " + V);
+ 
+    }
+ 
+}
+ 
