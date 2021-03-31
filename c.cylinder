@@ -3,7 +3,7 @@
  
 int main()
 {
-    float radius, high, S, V;
+    float radius, height, S, V;
     printf("radius: ");
     scanf("%f", &r);
     printf("height: ");
