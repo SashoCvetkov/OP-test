@@ -1,10 +1,12 @@
 import math
-radius = float(input('Enter radius: '))
-height = float(input('Enter height: '))
+ radius = float(input('Enter radius: '))
+ height = float(input('Enter height: '))
  
 if r<= 0 or h<= 0:
     print('Negative numbers.')
+    
 else:
+
     S = math.pi * radius *radius
     Volume = math.pi * radius * radius * height
     print('S = ' + str(S))
